@@ -1,6 +1,8 @@
 <img width="7043" height="554" alt="image" src="https://github.com/user-attachments/assets/5403482c-2b27-4771-828e-9ab4d6d24480" />
 This repository stores the codes and dataset links for LiteGE - Lightweight Representation for Geodesic Regression and Non-Isometric Shape Matching (AAAI 2026).
 
+# Background
+
 Geodesic : shortest curve between two points on 3D surface as illustrated below. (many applications in 3D graphics & vision.)
 
 <img width="255" height="182" alt="image" src="https://github.com/user-attachments/assets/03465d43-ef63-4ba5-8896-c3c99bea22d8" />
@@ -34,6 +36,8 @@ This representation is then used to predict geodesic distances in a 3D shape usi
 5. For shape matching: involves 2 points from 2 distinct shapes together with their UDF-PCA vectors. The distance predicted is average distance when the 2 points both lie on either one of the two shapes.
 
 The predicted geodesic distance between 2 points on 2 distinct shapes can be used to perform shape matching using a coarse-to-fine strategy.
+
+# Codes and Dataset Instructions
 
 For instruction to run the codes, you can check the individual ReadMe files for each folder. The dataset used in this project can be downloaded from these links:
 

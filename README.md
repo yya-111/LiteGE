@@ -43,7 +43,7 @@ Put in the same directory as the train / test codes : https://www.kaggle.com/dat
 
 These 2 datasets are used to train and test the Geodesic Regression and Shape Matching SMAL module on the SMAL datasets. We do not plan to release the training data for SURREAL + SMAL geodesic regression. Instead, we will release the Objaverse XL dataset and codes soon to showcase how LiteGE can work with diverse dataset and generalize across it.
 
-To run the test codes you need also a sample mesh, in MeshTestSample directory. The MeshTestSample directory here must be placed inside the same directory of the testing codes that you want to use. Note also, to run our shape matching testing codes, you can also place the tnet_... .pth in the /storage directory. 
+To run the test codes you need also a sample mesh, in MeshTestSample directory. The MeshTestSample directory here must be placed inside the same directory of the testing codes that you want to use. Note also, to run our shape matching testing codes, you can also place the tnet_model_weights_0.25699647267659503_0.0598757229745388_std_0.11098886281251907_2k.pth in the /storage directory. 
 
 
 

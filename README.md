@@ -10,6 +10,7 @@ We introduced LiteGE (300x faster than current SOTA & supports sparse point clou
 <img width="1200" height="250" alt="image" src="https://github.com/user-attachments/assets/3a5c54fe-9a34-46ba-98bd-44d1e9db7e53" />
 
 Idea : LiteGE represent shapes efficiently using 50-400 features UDF-PCA vector. 
+
 3 Stages Process:
 
 1. Shapes in one dataset are canonicalized (centered, scaled and aligned)

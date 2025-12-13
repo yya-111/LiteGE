@@ -35,7 +35,9 @@ This representation is then used to predict geodesic distances in a 3D shape usi
 The predicted geodesic distance between 2 points on 2 distinct shapes can be used to perform shape matching using a coarse-to-fine strategy.
 
 For instruction to run the codes, you can check the individual ReadMe files for each folder. The dataset used in this project can be downloaded from these links:
+
 Put in /storage directory : https://www.kaggle.com/datasets/5ed40f3afdb35d0558adbad4b6a78dddf0e972bbd9b2d6fba1a0caafc4a67ea8
+
 Put in the same directory as the train / test codes : https://www.kaggle.com/datasets/34eef62ee57d54eea9b8442341077ab565bb007414ef0e6addd1339a1cb02633 
 
 These 2 datasets are used to train and test the Geodesic Regression and Shape Matching SMAL module on the SMAL datasets. We do not plan to release the training data for SURREAL + SMAL geodesic regression. Instead, we will release the Objaverse XL dataset and codes soon to showcase how LiteGE can work with diverse dataset and generalize across it.

@@ -17,7 +17,7 @@ Idea : LiteGE represent shapes efficiently using 50-400 features UDF-PCA vector.
 
 1. Shapes in one dataset are canonicalized (centered, scaled and aligned)
 
-2. Shapes are turned into occupancy (0/1) voxels. Most voxels are constant 0/1s. So, informative voxels are extracted.
+2. Shapes are turned into 3D grid occupancy (0/1) voxels, indicating whether each 3D grid voxel is inside or outside the shape. Most voxels are constant 0/1s. So, informative voxels (voxels with variance larger than a threshold across the dataset) are extracted.
 
 3. Shapes are represented using unsigned distance (UDF), measured from the  informative voxels to the shape. Using PCA, this representation is reduced to 50-400 features UDF-PCA vector.
 

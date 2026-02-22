@@ -39,7 +39,7 @@ The predicted geodesic distance between 2 points on 2 distinct shapes can be use
 
 # Codes and Dataset Instructions
 
-For instruction to run the codes, you can check the individual ReadMe files for each folder. The dataset used in this project can be downloaded from these links:
+For instruction to run the codes, you can check the individual ReadMe files for each folder. Also, check GeneralReadMe.txt for general detailed instructions to run the codes there. The dataset used in this project can be downloaded from these links:
 
 Datasets for SMAL geodesic regression & shape matching:
 

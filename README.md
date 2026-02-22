@@ -39,13 +39,20 @@ The predicted geodesic distance between 2 points on 2 distinct shapes can be use
 
 # Codes and Dataset Instructions
 
-For instruction to run the codes, you can check the individual ReadMe files for each folder. The dataset used in this project can be downloaded from these links:
+For instruction to run the codes, you can check the individual ReadMe files for each folder. Also, check GeneralReadMe.txt for general detailed instructions to run the codes there. The dataset used in this project can be downloaded from these links:
+
+Datasets for SMAL geodesic regression & shape matching:
 
 Put in /storage directory : https://www.kaggle.com/datasets/5ed40f3afdb35d0558adbad4b6a78dddf0e972bbd9b2d6fba1a0caafc4a67ea8
 
 Put in the same directory as the train / test codes : https://www.kaggle.com/datasets/34eef62ee57d54eea9b8442341077ab565bb007414ef0e6addd1339a1cb02633 
 
-These 2 datasets are used to train and test the Geodesic Regression and Shape Matching on the SMAL (4-legged animals) datasets. We do not plan to release the training data for SURREAL + SMAL geodesic regression. Instead, we will release the Objaverse XL dataset and codes soon to showcase how LiteGE can work with diverse dataset and generalize across it.
+Datasets for Objaverse geodesic regression : 
+
+Put in the files in the same directory as Geodesic Regression - Objaverse : https://www.kaggle.com/datasets/yohanesyudhi/geodesic-objaverse-dataz
+
+
+These 2 datasets are used to train and test the Geodesic Regression and Shape Matching on the SMAL (4-legged animals) datasets. We do not plan to release the training data for SURREAL + SMAL geodesic regression. Instead, we released the Objaverse XL dataset and codes to showcase how LiteGE can work with diverse dataset and generalize across it.
 
 To run the test codes you need also a sample mesh, in MeshTestSample directory. The MeshTestSample directory here must be placed inside the same directory of the testing codes that you want to use. Note also, to run our shape matching testing codes, you can also place the tnet_model_weights_0.25699647267659503_0.0598757229745388_std_0.11098886281251907_2k.pth in the /storage directory. 
 
